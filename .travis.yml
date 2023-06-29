@@ -4,7 +4,6 @@ osx_image: xcode14.2
 env:
   matrix:
     - TEST_SDK=iphonesimulator16.2 OS=16.2 NAME='iPhone 14 Pro Max'
-    - TEST_SDK=iphonesimulator12.2 OS=12.1 NAME='iPhone SE'
 
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ICGTest.xcodeproj -scheme ICGTest -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
