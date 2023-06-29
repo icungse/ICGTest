@@ -17,7 +17,7 @@ final class ICGTestTests: XCTestCase {
     }
     
     func testAdd() {
-        XCTAssertEqual(icgTest.add(a: 1, b: 1), 2)
+        XCTAssertEqual(icgTest.add(a: 2, b: 1), 3)
     }
     
     func testSub() {
