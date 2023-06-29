@@ -16,6 +16,7 @@
 		FEA330132A4DD11E0044ACF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA330112A4DD11E0044ACF4 /* Main.storyboard */; };
 		FEA330152A4DD1200044ACF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA330142A4DD1200044ACF4 /* Assets.xcassets */; };
 		FEA330182A4DD1200044ACF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA330162A4DD1200044ACF4 /* LaunchScreen.storyboard */; };
+		FEA3301E2A4DD2E70044ACF4 /* ICGTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3301D2A4DD2E70044ACF4 /* ICGTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FEA330142A4DD1200044ACF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA330172A4DD1200044ACF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA330192A4DD1200044ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA3301D2A4DD2E70044ACF4 /* ICGTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICGTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FEA32FF02A4DCFA50044ACF4 /* ICGTest.h */,
+				FEA3301D2A4DD2E70044ACF4 /* ICGTest.swift */,
 			);
 			path = ICGTest;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				TargetAttributes = {
 					FEA32FEC2A4DCFA50044ACF4 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					FEA32FF42A4DCFA50044ACF4 = {
 						CreatedOnToolsVersion = 14.3;
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA3301E2A4DD2E70044ACF4 /* ICGTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +438,7 @@
 		FEA330002A4DCFA50044ACF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -456,6 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +471,7 @@
 		FEA330012A4DCFA50044ACF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -495,6 +503,7 @@
 		FEA330032A4DCFA50044ACF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -510,6 +519,7 @@
 		FEA330042A4DCFA50044ACF4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
