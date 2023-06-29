@@ -43,7 +43,6 @@
 		FEA330172A4DD1200044ACF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA330192A4DD1200044ACF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEA3301D2A4DD2E70044ACF4 /* ICGTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICGTest.swift; sourceTree = "<group>"; };
-		FEA3301F2A4DD7630044ACF4 /* ICGTest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ICGTest; sourceTree = "<group>"; };
 		FEE6F8D22A4DE3A80011A61D /* ICGTest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ICGTest.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				FEE6F8D22A4DE3A80011A61D /* ICGTest.xctestplan */,
-				FEA3301F2A4DD7630044ACF4 /* ICGTest */,
 				FEA32FEF2A4DCFA50044ACF4 /* ICGTest */,
 				FEA32FF92A4DCFA50044ACF4 /* ICGTestTests */,
 				FEA3300A2A4DD11E0044ACF4 /* ICGTestExample */,
