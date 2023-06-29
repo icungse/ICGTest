@@ -6,4 +6,4 @@ env:
     - TEST_SDK=iphonesimulator16.2 OS=16.2 NAME='iPhone 14 Pro Max'
 
 script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ICGTest.xcodeproj -scheme ICGTest -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project ICGTest.xcodeproj -scheme ICGTest -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES Phone 14 Pro Max" ONLY_ACTIVE_ARCH=YES -configuration Debug build test
