@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "BBAA1CCA-3D55-47A4-89E5-0AD5DF6F3296",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ICGTest.xcodeproj",
+        "identifier" : "FEA32FF42A4DCFA50044ACF4",
+        "name" : "ICGTestTests"
+      }
+    }
+  ],
+  "version" : 1
+}
